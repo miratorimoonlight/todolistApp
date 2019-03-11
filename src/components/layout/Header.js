@@ -6,7 +6,7 @@ function Header()
     return (
         <header style={headerStyle}>
             <h1>Todo List</h1>
-            <Link style={linkStyle} to="/todolistApp">Home</Link> |  {' '}
+            <Link style={linkStyle} to="/todolistApp/">Home</Link> |  {' '}
             <Link style={linkStyle} to="/about">About</Link>
         </header>    
     )
